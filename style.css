@@ -11,16 +11,20 @@ body{
 #body{
     display: grid;
     justify-content: space-between;
-    grid-template-columns: 30vw 70vw;
+    grid-template-columns: 40vw 60vw;
 }
 #first{
     padding-top: 15px;
-    padding-left: 15px;
+    padding-left: 1.1vw;
     background-color: #1da1f2;
     color: white;
     width: 100%;
 
 }
+/* #inner{
+    background-color: black;
+    margin-left: 10vw;
+} */
 #second{
     background-color: white;
     
@@ -29,16 +33,19 @@ body{
 }
 #image{
     margin-top: -15px;
-    margin-left: -15px;
-    height: 40vh; 
+    margin-left: -1.1vw;
+    /* padding-left: -6vw; */
+    height: 45vh; 
     object-fit: cover;       
-    width: 30vw;
+    width: 40vw;
 }
 #name{
     /* text-align: center; */
     font-size: 2vw;
+    padding-left: 2vw;
 }
 .material-symbols-outlined {
+    padding-right: 1vw;
   font-variation-settings:
   'FILL' 0,
   'wght' 400,
@@ -50,6 +57,7 @@ body{
 }
 #info{
     display: flex;
+    padding-left: 1vw;
     flex-direction: column;
     font-size: 1.4vw;
 
@@ -58,7 +66,7 @@ body{
     font-size: 3vw;
 }
 #hr{
-    width: 25vw;
+    width: 30vw;
     border-radius: 10px;
     margin-left: 1.5vw;
 
@@ -73,19 +81,17 @@ body{
     background-color: #6db3de;
     border-radius: 1px;
     width: 50%;
-    margin-left: 6vw;
-    height: 2vh;
+    margin-left: 8.5vw;
+    height: 1.2vh;
 }
-.label{
-    
-}
+
 .fill{
     text-align: right;
     background-color: #fff;
     border-radius: 10px;
     /* padding: 1%; */
-    height: 2vh;
-    font-size: 1vw;
+    height: 1.2vh;
+    /* font-size: 0.5vw; */
     color: #1da1f2;
     margin-left: -0.3vw;
     /* padding-left: 2vw; */
@@ -104,4 +110,43 @@ body{
 }
 .jquery{
     width: 80%;
+}
+#html_label{
+    position: relative;
+    /* top: 3.5vh; */
+    top: 2.7vh;
+    /* font-size: 1.6vw; */
+}
+#css_label{
+    position: relative;
+    top: 3.5vh;
+}
+#sas_label{
+    position: relative;
+    top: 3.5vh
+}
+#js_label{
+    position: relative;
+    top: 3.5vh;
+}
+#jquery_label{
+    position: relative;
+    top: 3.5vh;
+}
+#html_label_bottom{
+    position: relative;
+  left: 31vw;
+  top: -3vh;
+}
+#_label_bottom{
+  
+}
+#_label_bottom{
+  
+}
+#_label_bottom{
+  
+}
+#_label_bottom{
+  
 }
