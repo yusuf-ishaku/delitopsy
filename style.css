@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0.3vw;
+    /* overflow-x: hidden; */
 }
 body{
     background-color: grey;
@@ -10,8 +11,8 @@ body{
 }
 #body{
     display: grid;
-    justify-content: space-between;
-    grid-template-columns: 40vw 60vw;
+    justify-content: space-around;
+    grid-template-columns: 36vw 58vw;
 }
 #first{
     padding-top: 15px;
@@ -37,15 +38,15 @@ body{
     /* padding-left: -6vw; */
     height: 45vh; 
     object-fit: cover;       
-    width: 40vw;
+    width: 37.1vw;
 }
 #name{
     /* text-align: center; */
     font-size: 2vw;
-    padding-left: 2vw;
+    padding-left: 0.2vw;
 }
 .material-symbols-outlined {
-    padding-right: 1vw;
+    padding-right: 0.5vw;
   font-variation-settings:
   'FILL' 0,
   'wght' 400,
@@ -57,7 +58,7 @@ body{
 }
 #info{
     display: flex;
-    padding-left: 1vw;
+    margin-left: -0.7vw;
     flex-direction: column;
     font-size: 1.4vw;
 
@@ -66,22 +67,20 @@ body{
     font-size: 3vw;
 }
 #hr{
-    width: 30vw;
+    width: 34.5vw;
     border-radius: 10px;
     margin-left: 1.5vw;
 
 }
 #skill{
     font-size: 2vw;
-    margin-left: 1vw;
-}
-#skills{
+    margin-left: 0.2vw;
 }
 .container{
     background-color: #6db3de;
     border-radius: 1px;
-    width: 50%;
-    margin-left: 8.5vw;
+    width: 15vw;
+    margin-left: 12vw;
     height: 1.2vh;
 }
 
@@ -110,43 +109,89 @@ body{
 }
 .jquery{
     width: 80%;
+    
 }
+/* #jquery_container{
+    margin-left: 13vw;
+} */
+
 #html_label{
     position: relative;
-    /* top: 3.5vh; */
-    top: 2.7vh;
+    top: 2.2vh;
+    /* top: 2.7vh; */
     /* font-size: 1.6vw; */
 }
 #css_label{
-    position: relative;
-    top: 3.5vh;
+    position: absolute;
+    margin-top: 2vh;
+    left: 2.2vw;
 }
 #sas_label{
-    position: relative;
-    top: 3.5vh
+    position: absolute;
+    margin-top: 2vh;
+    left: 2.2vw;
 }
 #js_label{
-    position: relative;
-    top: 3.5vh;
+    position: absolute;
+    margin-top: 2vh;
+    left: 2.2vw;
 }
 #jquery_label{
-    position: relative;
-    top: 3.5vh;
+    position: absolute;
+    margin-top: 2vh;
+    left: 2.2vw;
+
 }
 #html_label_bottom{
     position: relative;
   left: 31vw;
   top: -3vh;
 }
-#_label_bottom{
+#css_label_bottom{
+    position: relative;
+    left: 31vw;
+    top: -3vh;
+    
+}
+#sas_label_bottom{
+    position: relative;
+    left: 31vw;
+    top: -3vh;
+    
+}
+#js_label_bottom{
+    position: relative;
+    left: 31vw;
+    top: -3vh;
+    
+}
+#jquery_label_bottom{
+    position: relative;
+    left: 31vw;
+    top: -3vh;
   
 }
-#_label_bottom{
-  
+.circle{
+    background-color: #fff;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
 }
-#_label_bottom{
-  
+#second{
+    padding-left: 1vw;
+    padding-top: 6vh;
+    padding-right: 3vw;
 }
-#_label_bottom{
-  
+#about_us{
+    font-size: 2vw;
+    color: #1da1f2;
+}
+#about{
+    font-size: 1.3vw;
+}
+#hrr{
+    width: 50.5vw;
+    border-radius: 10px;
+    margin-left: 1.5vw;
+    margin-top: 5vh;
 }
