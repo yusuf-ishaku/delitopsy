@@ -175,7 +175,7 @@ body{
     width: 50.5vw;
     border-radius: 10px;
     margin-left: 1.5vw;
-    background-color: #1da1f2;
+    color: #1da1f2;
     margin-top: 5vh;
 }
 #ex{
@@ -286,4 +286,12 @@ body{
     left: -41px;
     border: 3px solid #1da1f2;
   }
-  
+  #hrrr{
+    margin-top: -3vw;
+    width: 50.5vw;
+    margin-left: 1.5vw;
+  }
+  #edu{
+    font-size: 2vw;
+    color: #1da1f2;
+  }
