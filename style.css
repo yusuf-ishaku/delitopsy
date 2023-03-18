@@ -9,7 +9,7 @@ body{
 #body{
     display: grid;
     justify-content: space-around;
-    grid-template-columns: 37vw 58vw;
+    grid-template-columns: 30vw 65vw;
 }
 #first{
     padding-top: 15px;
