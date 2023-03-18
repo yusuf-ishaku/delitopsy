@@ -1,13 +1,10 @@
 *{
     padding: 0;
     margin: 0.3vw;
-    /* overflow-x: hidden; */
 }
 body{
     background-color: grey;
     font-family: 'Noto Sans', sans-serif;
-    /* font-family: 'Playball', cursive; */
-
 }
 #body{
     display: grid;
@@ -22,26 +19,18 @@ body{
     width: 100%;
     padding-bottom: 3vw;
 }
-/* #inner{
-    background-color: black;
-    margin-left: 10vw;
-} */
+
 #second{
     background-color: white;
-    
-    /* width: 100%; */
-
 }
 #image{
     margin-top: -15px;
     margin-left: -1.1vw;
-    /* padding-left: -6vw; */
     height: 45vh; 
     object-fit: cover;       
     width: 38vw;
 }
 #name{
-    /* text-align: center; */
     font-size: 2vw;
     padding-left: 0.2vw;
 }
@@ -88,12 +77,9 @@ body{
     text-align: right;
     background-color: #fff;
     border-radius: 10px;
-    /* padding: 1%; */
     height: 1.2vh;
-    /* font-size: 0.5vw; */
     color: #1da1f2;
     margin-left: -0.3vw;
-    /* padding-left: 2vw; */
 }
 .html{
     width: 80%;
@@ -111,16 +97,10 @@ body{
     width: 80%;
     
 }
-/* #jquery_container{
-    margin-left: 13vw;
-} */
-
 #html_label{
     position: relative;
     top: 2.2vh;
     left: -0.6vw;
-    /* top: 2.7vh; */
-    /* font-size: 1.6vw; */
 }
 #css_label{
     position: absolute;
@@ -176,7 +156,6 @@ body{
     background-color: #fff;
     border-radius: 50%;
     height: 3vw;
-    /* justify-content: space-between; */
     margin-top: 2vh;
     width: 3vw;
 }
@@ -221,21 +200,90 @@ body{
     position: absolute;
     font-size: 1vw;
     flex-direction: column;
-    /* margin-top: -7vh; */
     padding-top: 1vh;
 }
-/* #facebook{
-  
-} */
 #facebook_label{
+    padding-top: -8vh;
     position: relative;
     padding-bottom: 8vh;
     top: 15vh;
-    /* color: black; */
 }
-/* #fb_c{
-    2
-} */
+
 #socials{
     justify-content: space-between;
 }
+#social{
+    padding-bottom: -12vh;
+}
+/* :root {
+    --primary-color: #fff; 
+    --background-color: #212121;
+    --font: sans-serif;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background: var(--background-color);
+    font-family: var(--font);
+    display: flex;
+    justify-content: center;
+  } */
+
+/* Timeline Container */
+.timeline {
+    /* background: #; */
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  /* Outer Layer with the timeline border */
+  .outer {
+    border-left: 2px solid #1da1f2;
+  }
+ .card .info p{
+    /* color: #1da1f2; */
+    margin-top: -1.2vh;
+ }
+ #info_header{
+    font-weight: 600;
+ }
+  
+  /* Card container */
+  .card {
+    position: relative;
+    margin: 0 0 20px 20px;
+    padding-left: -3vw;
+    /* border: 1px solid red; */
+    border-radius: 8px;
+    max-width: 400px;
+  }
+  
+  /* Information about the timeline */
+  .info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* Title of the card */
+  .title {
+    font-weight: bolder;
+    position: relative;
+  }
+  
+  /* Timeline dot  */
+  .title::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 999px;
+    left: -41px;
+    border: 3px solid #1da1f2;
+  }
+  
