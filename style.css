@@ -6,31 +6,31 @@ body{
     background-color: grey;
     font-family: 'Noto Sans', sans-serif;
 }
-#body{
+.body{
     display: grid;
     justify-content: space-around;
     grid-template-columns: 30vw 65vw;
 }
-#first{
+.first{
     padding-top: 15px;
     padding-left: 1.1vw;
-    background-color: #1da1f2;
+    background-color: .1da1f2;
     color: white;
     width: 100%;
     padding-bottom: 3vw;
 }
 
-#second{
+.second{
     background-color: white;
 }
-#image{
+.image{
     margin-top: -15px;
     margin-left: -1.1vw;
     height: 45vh; 
     object-fit: cover;       
     width: 38vw;
 }
-#name{
+.name{
     font-size: 2vw;
     padding-left: 0.2vw;
 }
@@ -42,31 +42,31 @@ body{
   'GRAD' 0,
   'opsz' 48
 }
-#direction_icon{
+.direction_icon{
     font-size: 3vw;
 }
-#info{
+.info{
     display: flex;
     margin-left: -0.7vw;
     flex-direction: column;
     font-size: 1.4vw;
 
 }
-#location_icon, #email_icon, #website_icon, #mobile_icon{
+.location_icon, .email_icon, .website_icon, .mobile_icon{
     font-size: 3vw;
 }
-#hr{
+.hr{
     width: 34.5vw;
     border-radius: 10px;
     margin-left: 0.5vw;
 
 }
-#skill{
+.skill{
     font-size: 2vw;
     margin-left: 0.2vw;
 }
 .container{
-    background-color: #6db3de;
+    background-color: .6db3de;
     border-radius: 1px;
     width: 15vw;
     margin-left: 10vw;
@@ -97,56 +97,56 @@ body{
     width: 80%;
     
 }
-#html_label{
+.html_label{
     position: relative;
     top: 2.2vh;
     left: -0.6vw;
 }
-#css_label{
+.css_label{
     position: absolute;
     margin-top: 2.8vh;
     left: 2.2vw;
 }
-#sas_label{
+.sas_label{
     position: absolute;
     margin-top: 2.8vh;
     left: 2.2vw;
 }
-#js_label{
+.js_label{
     position: absolute;
     margin-top: 2.8vh;
     left: 2.2vw;
 }
-#jquery_label{
+.jquery_label{
     position: absolute;
     margin-top: 2.8vh;
     left: 2.2vw;
 
 }
-#html_label_bottom{
+.html_label_bottom{
     position: relative;
   left: 29vw;
   top: -3vh;
 }
-#css_label_bottom{
+.css_label_bottom{
     position: relative;
     left: 29vw;
     top: -3vh;
     
 }
-#sas_label_bottom{
+.sas_label_bottom{
     position: relative;
     left: 29vw;
     top: -3vh;
     
 }
-#js_label_bottom{
+.js_label_bottom{
     position: relative;
     left: 29vw;
     top: -3vh;
     
 }
-#jquery_label_bottom{
+.jquery_label_bottom{
     position: relative;
     left: 29vw;
     top: -2vh;
@@ -159,28 +159,28 @@ body{
     margin-top: 2vh;
     width: 3vw;
 }
-#second{
+.second{
     padding-left: 1vw;
     padding-top: 6vh;
     padding-right: 2.5vw;
 }
-#about_us{
+.about_us{
     font-size: 2vw;
-    color: #1da1f2;
+    color: .1da1f2;
 }
-#about{
+.about{
     font-size: 1.3vw;
 }
-#hrr{
+.hrr{
     width: 50.5vw;
     border-radius: 10px;
     margin-left: 1.5vw;
-    color: #1da1f2;
+    color: .1da1f2;
     margin-top: 5vh;
 }
-#ex{
+.ex{
     font-size: 2vw;
-    color: #1da1f2;
+    color: .1da1f2;
 
 }
 .label{
@@ -189,7 +189,7 @@ body{
 .class_label{
     font-size: 1.5vw;
 }
-#facebook_label{
+.facebook_label{
     position: relative;
     padding-left: 5vw;
     top: 2vh;
@@ -202,53 +202,35 @@ body{
     flex-direction: column;
     padding-top: 1vh;
 }
-#facebook_label{
+.facebook_label{
     padding-top: -8vh;
     position: relative;
     padding-bottom: 8vh;
     top: 15vh;
 }
 
-#socials{
+.socials{
     justify-content: space-between;
 }
-#social{
+.social{
     padding-bottom: -12vh;
 }
-/* :root {
-    --primary-color: #fff; 
-    --background-color: #212121;
-    --font: sans-serif;
-  }
-  
-  * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    background: var(--background-color);
-    font-family: var(--font);
-    display: flex;
-    justify-content: center;
-  } */
-
 /* Timeline Container */
 .timeline {
-    /* background: #; */
+    /* background: .; */
     margin: 20px auto;
     padding: 20px;
   }
   
   /* Outer Layer with the timeline border */
   .outer {
-    border-left: 2px solid #1da1f2;
+    border-left: 2px solid .1da1f2;
   }
  .card .info p{
-    /* color: #1da1f2; */
+    /* color: .1da1f2; */
     margin-top: -1.2vh;
  }
- #info_header{
+ .info_header{
     font-weight: 600;
  }
   
@@ -284,14 +266,14 @@ body{
     background: white;
     border-radius: 999px;
     left: -41px;
-    border: 3px solid #1da1f2;
+    border: 3px solid .1da1f2;
   }
-  #hrrr{
+  .hrrr{
     margin-top: -3vw;
     width: 50.5vw;
     margin-left: 1.5vw;
   }
-  #edu{
+  .edu{
     font-size: 2vw;
-    color: #1da1f2;
+    color: .1da1f2;
   }
